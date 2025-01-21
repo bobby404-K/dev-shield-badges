@@ -1,0 +1,14 @@
+{
+  "name": "dev-shield-badges",
+  "version": "1.2.0",
+  "description": "Dynamic SVG status badge & profile shield generator CLI",
+  "type": "module",
+  "main": "./dist/index.js",
+  "bin": {
+    "dev-shield": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  }
+}
